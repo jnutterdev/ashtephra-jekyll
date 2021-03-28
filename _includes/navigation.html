@@ -1,41 +1,39 @@
 <section class="hero is-medium is-dark">
     <div class="hero-head">
-      <div class="container">
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-
-          <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-              <a class="navbar-item is-black">
-                Home
-              </a>
-              <a class="navbar-item" hre="#">
+        <div class="container">
+            <nav class="navbar" role="navigation" aria-label="main navigation">
+                <div id="navbarBasicExample" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item is-black" href="/">
+                          Home
+                        </a>
+                        <a class="navbar-item" href="{% link releases.md %}">
                 Releases
               </a>
-              <a class="navbar-item" href="#">
+                        <a class="navbar-item" href="{% link artists.md %}">
                 Artists
               </a>
-            </div>
-
-            <div class="navbar-end">
-              <div class="navbar-item">
-                <a href="{{ site.social-media.twitter }}">
-                  <i class="lni lni-twitter px-2"></i>
-                </a>
-                <a href="{{ site.social-media.bandcamp }}">
-                  <i class="lni lni-play px-2"></i>
-                </a>
-              </div>
-            </div>
-          </div>
-        </nav>
-      </div>
+                    </div>
+                    <div class="navbar-end">
+                        <div class="navbar-item">
+                            <a href="{{ site.social-media.twitter }}">
+                                <i class="lni lni-twitter px-2"></i>
+                            </a>
+                            <a href="{{ site.social-media.bandcamp }}">
+                                <i class="lni lni-play px-2"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </div>
     </div>
     <div class="hero-body">
-      <div class="container has-text-centered">
-        <h1 class="title">ashtephra records</h1>
-        <h2 class="subtitle">
-          {{site.description}}
-        </h2>
-      </div>
+        <div class="container has-text-centered">
+            <h1 class="title">ashtephra records</h1>
+            <h2 class="subtitle">
+                {{site.description}}
+            </h2>
+        </div>
     </div>
-  </section>
+</section>
