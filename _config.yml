@@ -32,6 +32,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+social-media:
+  - twitter: https://www.twitter.com/ashtephra
+  - bandcamp: https://ashtephra.bandcamp.com/
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
